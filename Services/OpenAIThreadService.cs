@@ -71,7 +71,7 @@ public class OpenAIThreadService
                 )
             );
 
-            runResponse.EnsureSuccessStatusCode();
+            runResponse.EnsureSuccessStatusCode(); 
 
             var runJson = await runResponse.Content.ReadAsStringAsync();
 
